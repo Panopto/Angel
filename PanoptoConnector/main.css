@@ -1,0 +1,212 @@
+/* General */
+
+.sys-template
+{
+    display: none;
+}
+
+
+/* Global Config Page */
+
+.configContent
+{
+    margin-left: 15px;
+}
+
+.configContent H2
+{
+    margin-bottom: 15px;
+}
+
+.configContent input[type=text]
+{
+    width: 300px;
+}
+
+.globalConfigSettingName
+{
+	text-align: right;
+}
+
+.pluginVersionCell
+{
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.globalConfigSettingName.pluginVersionCell
+{
+    font-weight: normal;
+}
+
+.settingsConfirmationMessage
+{
+    color: #888;
+}
+
+.submitButtonDiv
+{
+    margin-top: 20px;
+}
+
+.batchProvisionLink
+{
+    margin-top: 30px;
+}
+
+
+/* Batch Provisioning Page */
+
+.courseList
+{
+    min-width: 500px;
+    height: 500px;
+}
+
+.backLink
+{
+    margin-top: 30px;
+}
+
+
+/* Course Settings Page */
+
+#provisionLink
+{
+	margin-left: 10px;
+}
+
+
+/* Provision Page */
+
+.courseProvisionResult
+{
+	border: solid 1px #C0C0C0;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.courseProvisionResult .attribute
+{
+	font-weight: bold;
+}
+
+.courseProvisionResult .value
+{
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.courseProvisionResult .successMessage
+{
+	color: green;
+}
+
+.courseProvisionResult .errorMessage
+{
+	color: red;
+}
+
+
+/* Content Page */
+
+.sectionHeader
+{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.liveLecture, .completedRecording, .courseLink
+{
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.rssLink
+{
+	font-size: 0.8em;
+}
+
+
+/* Not Used (from Blackboard) */
+
+#configButton
+{
+	margin: 20px 0px;
+}
+
+#batchProvisionResultsHeader
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 15px;
+}
+
+#batchProvisionResults
+{
+	margin-left: 30px;
+}
+
+#courseContent
+{
+	margin: 15px;
+}
+
+.liveLectureActions
+{
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+
+/* Simulates Blackboard <bbUI:stepSubmit...>-style layout for javascript-enabled buttons */
+.jsSubmitButtonDiv
+{
+	float: right;
+	margin-right:15px;
+}
+
+.disabled
+{
+	background-color: #EEEEEE;
+}
+
+#serverList
+{
+	margin: 0px;
+}
+
+#noServersMessage
+{
+	margin-top: 15px;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#addServerDiv
+{
+	padding-top: 20px;
+}
+
+.settingTable TH
+{
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.settingTable TD
+{
+	vertical-align: top;
+}
+
+.settingNote
+{
+	font-size: .9em;	
+}
+
+.error
+{
+	color: red;
+}
